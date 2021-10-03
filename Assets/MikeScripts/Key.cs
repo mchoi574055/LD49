@@ -17,7 +17,6 @@ public class Key : MonoBehaviour
 
     public void followPlayer()
     {
-        Debug.Log("test");
         transform.parent = GameObject.Find("Circle").transform;
         transform.localPosition = Vector3.up;
     }
