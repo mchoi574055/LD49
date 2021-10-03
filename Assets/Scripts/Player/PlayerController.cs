@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 direction;
     private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
     private Item currentItem;
 
@@ -20,6 +22,8 @@ public class PlayerController : MonoBehaviour
     {
         direction = Vector3.zero;
         rb = gameObject.GetComponent<Rigidbody2D>();
+        animator = gameObject.GetComponent<Animator>();
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         currentItem = Item.NONE;
     }
 
@@ -27,6 +31,15 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         rb.velocity = Vector3.Lerp(rb.velocity, direction * moveSpeed, Time.deltaTime * accelerationSpeed);
+        if (direction != Vector3.zero)
+        {
+            animator.Play("playerRight");
+            spriteRenderer.flipX = direction.x < 0;
+        }
+        else
+        {
+            animator.Play("playerIdle");
+        }
     }
     
     //Events
