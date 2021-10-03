@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,11 +23,12 @@ public class Door : MonoBehaviour
         gameObject.SetActive(false); //Door opens, so it's deleted.
     }
    */
-    public void OnTriggerEnter2D(Collision2D collider)
-    {
-        Debug.Log("Hi");
+
+   private void OnTriggerEnter2D(Collider2D other)
+   {
+       Debug.Log("Hi");
        // player = collider.gameObject.GetComponent<PlayerController>();
-        if (collider.gameObject == player)
+        if (other.gameObject == player)
         {
             
           //  if (player.getCurrentItem() == Item.KEY) // If the player near the door is holding a key, open.
@@ -34,5 +36,5 @@ public class Door : MonoBehaviour
                 gameObject.SetActive(false);
           //  }
         }
-    }
+   }
 }
