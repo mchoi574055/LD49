@@ -16,18 +16,14 @@ public class Key : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inside)
-        {
-            Debug.Log("Player is standing in radius");
-            if (Input.GetKey(KeyCode.Space))
-            {
-                transform.parent = GameObject.Find("Circle").transform;
-                transform.localPosition = Vector3.up;
-            }
-        }
+        
     }
 
-
+    public void updatePosition()
+    {
+        transform.parent = GameObject.Find("Circle").transform;
+        transform.localPosition = Vector3.up;
+    }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Circle")
