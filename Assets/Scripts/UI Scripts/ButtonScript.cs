@@ -8,4 +8,10 @@ public class ButtonScript : MonoBehaviour
     {
         SceneManager.LoadScene(scene_name);
     }
+
+    public void QuitGame()
+    {   
+        Debug.Log("Quitting...");
+        //Application.Quit();
+    }
 }
