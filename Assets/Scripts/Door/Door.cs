@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+  //  [SerializeField] private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,24 +17,20 @@ public class Door : MonoBehaviour
     {
         
     }
-    
-   /* private void open()
-    {
-        gameObject.SetActive(false); //Door opens, so it's deleted.
-    }
-   */
+
 
    private void OnTriggerEnter2D(Collider2D other)
    {
-       Debug.Log("Hi");
-       // player = collider.gameObject.GetComponent<PlayerController>();
-        if (other.gameObject == player)
-        {
-            
-          //  if (player.getCurrentItem() == Item.KEY) // If the player near the door is holding a key, open.
-           // {
-                gameObject.SetActive(false);
-          //  }
-        }
+      // Debug.Log("Hi");
+     //  Debug.Log(other);
+       PlayerController player = other.GetComponent<PlayerController>();
+       if (player != null)
+       {
+        // Debug.Log("Hello");
+         if (player.getCurrentItem() == Item.KEY)
+          {
+            gameObject.SetActive(false);
+          }
+       }
    }
 }
