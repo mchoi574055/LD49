@@ -14,6 +14,7 @@ public class Circle : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         vel = new Vector2(5, 0);
         _rb.velocity = vel;
+        transform.tag = "Circle";
 
     }
 
