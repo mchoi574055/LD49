@@ -28,11 +28,10 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = Vector3.Lerp(rb.velocity, direction * moveSpeed, Time.deltaTime * accelerationSpeed);
     }
-
+    
     //Events
     public void OnMove(InputValue movementValue)
     {
-        Debug.Log(movementValue.Get<Vector2>());
         direction = new Vector3(movementValue.Get<Vector2>().x, movementValue.Get<Vector2>().y, 0);
     }
     
