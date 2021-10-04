@@ -623,11 +623,11 @@ PrefabInstance:
       objectReference: {fileID: 1565684339}
     - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: sentences.Array.size
-      value: 11
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: sentences.Array.data[0]
-      value: '!'
+      value: '!!!!!'
       objectReference: {fileID: 0}
     - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: sentences.Array.data[1]
@@ -669,8 +669,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: sentences.Array.data[10]
-      value: 'Other games might clutter your screen with needless chaff that has
-        nothing to do with the puzzle. '
+      value: Other games pile on level after level of inferior puzzles, seeking to
+        use their quantity to distract you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[11]
+      value: But enough about other games. Let me tell you how to play my game!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[12]
+      value: It's very simple. You must get to the flagpole.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[13]
+      value: Pick up the key, and use it to open the door.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[14]
+      value: Move the box to the button.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[15]
+      value: You can move using the arrow keys!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[16]
+      value: Well! Off you go! Try walking around!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[17]
+      value: You can also reset the level if something happens...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
+      propertyPath: sentences.Array.data[18]
+      value: 'Spacebar to pick up key : Arrow keys to move'
       objectReference: {fileID: 0}
     - target: {fileID: 3391696481571182382, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: m_RootOrder
