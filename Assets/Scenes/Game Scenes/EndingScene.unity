@@ -123,90 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &332905815
+--- !u!114 &221771603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6021693332230034332, guid: dde4a0c7a715ad34f980f9859e4e6faf, type: 3}
+  m_PrefabInstance: {fileID: 742543614}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &524896549 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6021693332428221900, guid: dde4a0c7a715ad34f980f9859e4e6faf, type: 3}
+  m_PrefabInstance: {fileID: 742543614}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 332905818}
-  - component: {fileID: 332905817}
-  - component: {fileID: 332905816}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &332905816
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 332905815}
-  m_Enabled: 1
---- !u!20 &332905817
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 332905815}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &332905818
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 332905815}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.929288, y: -6.3772826, z: -32.994568}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2743247056422974290
+--- !u!1001 &742543614
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -303,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dde4a0c7a715ad34f980f9859e4e6faf, type: 3}
---- !u!1001 &5640364997823926116
+--- !u!1001 &917739411
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -317,11 +250,132 @@ PrefabInstance:
     - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
       propertyPath: textDisplay
       value: 
-      objectReference: {fileID: 8466946003194536142}
+      objectReference: {fileID: 221771603}
     - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
       propertyPath: continueButton
       value: 
-      objectReference: {fileID: 8466946002853748382}
+      objectReference: {fileID: 524896549}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.size
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "What\u2026 what have you done? WHAT HAVE YOU DONE?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: My game! My beautiful game!
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: "You\u2019ve destroyed my game! You\u2026 you monster! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: "That\u2019s it. I give up. I\u2019m done. You win, okay!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: ' Is that what you wanted? Confetti? A victory screen? Well too bad,
+        because you broke it.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: "There\u2019s no more game. I\u2019m done with this. You ruined it,
+        and I\u2019m done. I quit. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[6]
+      value: 'Why did you do it, huh? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[7]
+      value: "Why couldn\u2019t you just play the game like it was supposed to be
+        played?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[8]
+      value: "Why couldn\u2019t you just have fun?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[9]
+      value: Did you have fun?
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[10]
+      value: Was destroying my game fun for you? Did you enjoy crushing my dreams?
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[11]
+      value: 'I was going to be a great developer. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[12]
+      value: I was going to make great games and everyone would love them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[13]
+      value: 'I was going to be good at something, and you RUINED IT. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[14]
+      value: 'THIS IS ALL YOUR FAULT '
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[15]
+      value: 'WHYWHYWHYWHYWHYWHYWHYWHYWHYWHYWHYWHY '
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[16]
+      value: "WHY COULDN\u2019T YOU JUST LEAVE IT ALONE! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[17]
+      value: "WHY COULDN\u2019T YOU JUST LET ME BELIEVE IT WAS A GOOD GAME! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[18]
+      value: " *sigh* ... it wasn\u2019t a good game, was it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[19]
+      value: "You didn\u2019t even break it, did you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[20]
+      value: I broke it. It was already broken.
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[21]
+      value: "You just showed me where it was broken and I didn\u2019t want to see
+        it."
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[22]
+      value: "You were\u2026 were you trying to help me?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[23]
+      value: "But then\u2026 oh. Oh no."
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[24]
+      value: I thought we could be friends. Then I thought you were a terrible friend.
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[25]
+      value: "But it was me. I\u2019m the terrible friend."
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[26]
+      value: "Wait here. Just stay put and don\u2019t touch anything, I\u2019ll be
+        right back. Please?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 578363687140166049, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
+      propertyPath: sentences.Array.data[27]
+      value: "Maybe\u2026 you could try it again? If you want to?"
+      objectReference: {fileID: 0}
     - target: {fileID: 578363687140166054, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -368,7 +422,90 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f44bf96c154035c48aec0aeb7d812df4, type: 3}
---- !u!1001 &6379895872685094495
+--- !u!1 &1336073745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1336073748}
+  - component: {fileID: 1336073747}
+  - component: {fileID: 1336073746}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1336073746
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336073745}
+  m_Enabled: 1
+--- !u!20 &1336073747
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336073745}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1336073748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336073745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1824053680
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -465,19 +602,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a376f5fd99871b4d8730accfdabbd17, type: 3}
---- !u!1 &8466946002853748382 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6021693332428221900, guid: dde4a0c7a715ad34f980f9859e4e6faf, type: 3}
-  m_PrefabInstance: {fileID: 2743247056422974290}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8466946003194536142 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6021693332230034332, guid: dde4a0c7a715ad34f980f9859e4e6faf, type: 3}
-  m_PrefabInstance: {fileID: 2743247056422974290}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

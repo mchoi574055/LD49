@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &578363687140166048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578363687140166054}
+  - component: {fileID: 578363687140166049}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &578363687140166054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578363687140166048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 300.73257, y: 96.57429, z: -363.60733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &578363687140166049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578363687140166048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0a5e59000d9344daf161ff771d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  sentences:
+  - ....................................
+  - How did you like that restart?
+  - That's right, I refreshed your game.
+  - If you play like an idiot, you will be punished.
+  - Well, here we are again!
+  - ' And boy does this puzzle look BORING. '
+  - Only one flagpole! What do you say, Player?
+  - "Since you love this stupid thing so much\u2014  "
+  - "How\u2019s THAT? Just right for you, Player!"
+  - 'Yes yes! '
+  - The PLAYER knows best, the PLAYER gets to call the shots now!
+  - 'This is much better, SO much better than before. '
+  - Still not satisfied, eh?
+  - It's your fault for cheating your way here
+  - You can't wiggle your way out of this puzzle....
+  - There's no loophole for you this time!
+  typingSpeed: 0.1
+  continueButton: {fileID: 0}
