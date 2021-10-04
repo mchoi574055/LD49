@@ -388,6 +388,10 @@ PrefabInstance:
       propertyPath: onLoadAnimation
       value: S5
       objectReference: {fileID: 0}
+    - target: {fileID: 1788918782131995228, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: blocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4621913096521880517, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -544,7 +548,8 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3573579143982654477, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
 --- !u!1 &465578606 stripped
 GameObject:
