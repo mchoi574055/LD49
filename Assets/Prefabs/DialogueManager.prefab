@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1972595616599160118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972595616599160112}
+  - component: {fileID: 1972595616599160119}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972595616599160112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972595616599160118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 300.73257, y: 96.57429, z: -363.60733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972595616599160119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972595616599160118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0a5e59000d9344daf161ff771d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  sentences:
+  - '!!!!!'
+  - 'Greetings, Player! '
+  - "Welcome to my game\u2026 no, welcome to my masterpiece. My magnum opus. "
+  - "What you are now immersed in is no mere \u2018puzzle game'."
+  - 'It is the purest expression of the ideal puzzle. It has everything you could
+    need in a good puzzle! '
+  - 'A bridge! A key! A door! A box! '
+  - A charming, charismatic Narrator!
+  - And most importantly, a button!
+  - "Other games wouldn\u2019t give you this level of elegance, this simplicity. "
+  - 'Other games might clutter your screen with needless chaff that has nothing to
+    do with the puzzle. '
+  - Other games pile on level after level of inferior puzzles, seeking to use their
+    quantity to distract you.
+  - But enough about other games. Let me tell you how to play my game!
+  - It's very simple. You must get to the flagpole.
+  - Pick up the key, and use it to open the door.
+  - Move the box to the button.
+  - You can move using the arrow keys!
+  - Well! Off you go! Try walking around!
+  - You can also reset the level if something happens...
+  - 'Spacebar to pick up key : Arrow keys to move'
+  typingSpeed: 0.1
+  continueButton: {fileID: 0}
