@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour
 {
-    private readonly string[] _iterations = {"Iteration1", "Iteration2", "Iteration3"};
+    private readonly string[] _iterations = {"Iteration1", "Iteration2", "Iteration3", "Iteration4", "Iteration5", "Iteration6", "Iteration7"};
     
     public void pressedPlay()
     {
