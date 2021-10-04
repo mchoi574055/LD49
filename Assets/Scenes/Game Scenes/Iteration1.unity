@@ -203,6 +203,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 221
       objectReference: {fileID: 0}
+    - target: {fileID: 2591354614096279018, guid: c42e42bb805272e48a68c9b7e99f8f8a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 68b1593a0f267b14d99b819c31881298, type: 2}
+    - target: {fileID: 2591354614096279018, guid: c42e42bb805272e48a68c9b7e99f8f8a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7071690433953424395, guid: 68b1593a0f267b14d99b819c31881298, type: 2}
     - target: {fileID: 2591354614288561824, guid: c42e42bb805272e48a68c9b7e99f8f8a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -297,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2591354614288561828, guid: c42e42bb805272e48a68c9b7e99f8f8a, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: ResetCanvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c42e42bb805272e48a68c9b7e99f8f8a, type: 3}
@@ -408,6 +416,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4621913097091617760, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621913097091617760, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_OverrideSorting
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4621913097091617762, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 534
@@ -437,12 +453,20 @@ PrefabInstance:
       value: 4284818695
       objectReference: {fileID: 0}
     - target: {fileID: 4621913097091617775, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621913097091617775, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1703494309}
     - target: {fileID: 4621913097091617775, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextSentence
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_fontSize
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_margin.y
@@ -452,6 +476,10 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 158.07196
       objectReference: {fileID: 0}
+    - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 68b1593a0f267b14d99b819c31881298, type: 2}
     - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_fontColor.b
       value: 0.07089758
@@ -464,6 +492,14 @@ PrefabInstance:
       propertyPath: m_fontColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7071690433953424395, guid: 68b1593a0f267b14d99b819c31881298, type: 2}
     - target: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
@@ -615,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 1130357362}
     - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: typingSpeed
-      value: 0.05
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3391696481571182377, guid: 45d91ca7a303ed5469ab8f9f40a59fd7, type: 3}
       propertyPath: continueButton

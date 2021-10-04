@@ -23,6 +23,7 @@ public class Dialog : MonoBehaviour
         {
             continueButton.SetActive(true);
         }
+        
     }
     IEnumerator Type()
     {
@@ -31,10 +32,12 @@ public class Dialog : MonoBehaviour
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+        NextSentence();
     }
 
     public void NextSentence()
     {
+        
         continueButton.SetActive(false);
         if(index < sentences.Length - 1)
         {
@@ -48,4 +51,5 @@ public class Dialog : MonoBehaviour
             continueButton.SetActive(false);
         }
     }
+        
 }
