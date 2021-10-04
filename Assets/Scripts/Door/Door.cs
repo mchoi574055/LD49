@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Door : MonoBehaviour
-{
-  //  [SerializeField] private GameObject player;
+{ 
+    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject key;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,16 +23,14 @@ public class Door : MonoBehaviour
 
    private void OnTriggerEnter2D(Collider2D other)
    {
-      // Debug.Log("Hi");
-     //  Debug.Log(other);
-       PlayerController player = other.GetComponent<PlayerController>();
-       if (player != null)
+       PlayerController playerController = player.GetComponent<PlayerController>();
+       if(other.gameObject == player)
        {
-        // Debug.Log("Hello");
-         if (player.getCurrentItem() == Item.KEY)
-          {
-            gameObject.SetActive(false);
-          }
+            if (playerController.getCurrentItem() == Item.KEY) { 
+                gameObject.SetActive(false);
+                playerController.setCurrentItem(Item.NONE);
+                key.SetActive(false);
+            }
        }
    }
 }

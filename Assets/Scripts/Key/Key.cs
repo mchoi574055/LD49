@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
+
+    [SerializeField] private GameObject player;
+    
     void Start()
     {
         
@@ -17,7 +20,8 @@ public class Key : MonoBehaviour
 
     public void followPlayer()
     {
-        transform.parent = GameObject.Find("Circle").transform;
-        transform.localPosition = Vector3.up;
+        player.GetComponent<PlayerController>().setCurrentItem(Item.KEY);
+        transform.parent = player.transform;
+        transform.localPosition = new Vector3(0f, 4.6f);
     }
 }
