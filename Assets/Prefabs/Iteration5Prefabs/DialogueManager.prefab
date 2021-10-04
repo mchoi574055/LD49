@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &475984286574631999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475984286574631993}
+  - component: {fileID: 475984286574631998}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475984286574631993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475984286574631999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 300.73257, y: 96.57429, z: -363.60733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &475984286574631998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475984286574631999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0a5e59000d9344daf161ff771d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  sentences:
+  - What? You did it? But...the button!
+  - Player I thought I told you to stay put.
+  - "And look at what you\u2019ve done, you\u2019ve solved my puzzle the wrong way
+    again!"
+  - 'How did you even manage that? '
+  - You used the key on the exit door?
+  - "That\u2019s the dumbest thing I\u2019ve ever heard! Box puzzles are the simplest
+    and most "
+  - 'beautiful kind of puzzles! '
+  - "Using a key to unlock a door isn\u2019t a puzzle at all, we do that all the
+    time."
+  - Sigh...remember the first time you played my game?
+  - 'Remember how you listened to me '
+  - and we solved the puzzle together?
+  - We could have that again!
+  - "All right. I\u2019ve taken away the bridge so you can\u2019t get to the key. "
+  - "Not until I\u2019ve fixed this dang button."
+  - "There\u2019s nothing you can use on this side of the chasm so don\u2019t even
+    try! "
+  typingSpeed: 0.1
+  continueButton: {fileID: 0}
