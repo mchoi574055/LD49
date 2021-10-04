@@ -7,11 +7,13 @@ public class PauseMenu : MonoBehaviour
     public GameObject PauseUI;
     public GameObject GameUI;
     public GameObject OptionUI;
+    public GameObject TextboxUI;
     void Start () 
     {
         PauseUI.SetActive(false);
         GameUI.SetActive(true);
         OptionUI.SetActive(false);
+        TextboxUI.SetActive(true);
     }
 
     void Update()
@@ -46,10 +48,12 @@ public class PauseMenu : MonoBehaviour
     {
         PauseUI.SetActive(false);
         OptionUI.SetActive(true);
+        TextboxUI.SetActive(false);
     }
     public void CloseOptions()
     {
         PauseUI.SetActive(true);
         OptionUI.SetActive(false);
+        TextboxUI.SetActive(true);
     }
 }
