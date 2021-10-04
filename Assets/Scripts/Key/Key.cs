@@ -6,17 +6,6 @@ public class Key : MonoBehaviour
 {
 
     [SerializeField] private GameObject player;
-    
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void followPlayer()
     {

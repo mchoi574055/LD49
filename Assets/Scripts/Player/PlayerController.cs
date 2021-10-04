@@ -33,8 +33,17 @@ public class PlayerController : MonoBehaviour
         rb.velocity = Vector3.Lerp(rb.velocity, direction * moveSpeed, Time.deltaTime * accelerationSpeed);
         if (direction != Vector3.zero)
         {
-            animator.Play("playerRight");
-            spriteRenderer.flipX = direction.x < 0;
+            if (direction.x != 0)
+            {
+                animator.Play("playerRight");
+                spriteRenderer.flipX = direction.x < 0;
+            }else if (direction.y > 0)
+            {
+                animator.Play("playerUp");
+            }else if (direction.y < 0)
+            {
+                animator.Play("playerDown");
+            }
         }
         else
         {
