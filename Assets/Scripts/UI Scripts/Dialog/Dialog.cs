@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,19 +5,37 @@ using TMPro;
 
 public class Dialog : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI textDisplay;
-    [SerializeField] private float revealPercentage;
-    
-    private string currentSentence = "";
+    public TextMeshProUGUI textDisplay;
+    private string[][] blocks;
+    public float typingSpeed;
 
-    public void setCurrentSentence(string s)
+    public void Start()
     {
-        currentSentence = s;
+        
     }
-
-    private void Update()
+    
+    public void playDialogueChunk(string[] s)
     {
-        textDisplay.text = currentSentence.Substring(0, (int) (currentSentence.Length * revealPercentage));
+        StartCoroutine(Type(s));
+    }
+    
+    IEnumerator Type(string[] sentences) {
+            
+        int index = 0;
+        
+        while(index < sentences.Length - 1){
+            
+            foreach(char letter in sentences[index].ToCharArray()) {
+                textDisplay.text += letter;
+                yield return new WaitForSeconds(typingSpeed);
+            }
+
+            yield return new WaitForSeconds(3);
+            
+            index++;
+            textDisplay.text = "";
+        }
+        textDisplay.text = "";
     }
         
 }
