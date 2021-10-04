@@ -957,6 +957,84 @@ PrefabInstance:
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 1164679356}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "Ah, welcome back Player! Couldn\u2019t help but play again huh? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: And who could blame you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: The replay value is what separates MY games from others...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: A bridge! A box! A key! And a button that opens a door!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: You get to experience all that thrill and exhilaration again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: Other games might make you come up with another way to solve the same
+        puzzle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[6]
+      value: "But remember, MY game isn\u2019t like other games.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[7]
+      value: "There\u2019s only one solution: the correct one. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[8]
+      value: 'Go ahead, solve this room again, just like I told you last time. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[9]
+      value: "Move something onto the button and claim your reward! I\u2019ll get
+        the confetti ready. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[10]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[11]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[12]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[13]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[14]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[15]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[16]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972595616599160119, guid: 89be07aafb6668540953feb5cb816242, type: 3}
+      propertyPath: sentences.Array.data[17]
+      value: 'Spacebar to pick up key : Arrow keys to move'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89be07aafb6668540953feb5cb816242, type: 3}
 --- !u!1001 &1364400496
