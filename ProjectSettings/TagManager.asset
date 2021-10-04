@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - Circle
+  - player
   layers:
   - Default
   - TransparentFX

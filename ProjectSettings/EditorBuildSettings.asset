@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Scenes/William - StartScr UI.unity
     guid: 0c020d4733f69da49af0aa8f45ffcf05
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/TitleScene.unity
+    guid: eda240285ff38a54e918bebc91931279
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Iteration1.unity
+    guid: 4eaad7d1d995ddb4c9291507a012117f
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/OptionScene.unity
+    guid: 8fbf46eef6cd95d4f971bb701e1c7dbd
   m_configObjects: {}

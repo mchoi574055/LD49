@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayButton : MonoBehaviour
+public class OptionButton : MonoBehaviour
 {
-    public void pressedPlay()
+    public void pressedOption()
     {
         Debug.Log("Detected press");
-        SceneManager.LoadScene(sceneName: "Iteration1");
+        SceneManager.LoadScene(sceneName: "OptionScene");
     }
 }
