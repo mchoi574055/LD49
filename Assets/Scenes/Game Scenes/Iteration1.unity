@@ -402,6 +402,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2039468536}
+    - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
+      propertyPath: interactor
+      value: 
+      objectReference: {fileID: 2039468536}
     - target: {fileID: 5370899184818633493, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: player
       value: 
