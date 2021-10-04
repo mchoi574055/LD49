@@ -12,6 +12,9 @@ public class EndFlag : MonoBehaviour
         if (other.gameObject == interactor)
         {
             transform.Find("Canvas").gameObject.SetActive(true);
+            other.gameObject.SetActive(false);
+            PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
+            PlayerPrefs.Save();
         }
     }
 }
